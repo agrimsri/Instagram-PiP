@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram PiP — Picture-in-Picture Video Calls",
+  "version": "1.0",
+  "description": "Float your Instagram video call in a mini window that stays on top while you work.",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
