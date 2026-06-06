@@ -29,8 +29,7 @@ Here's what you get:
 - 🪟 **A floating mini window** that stays on top of everything you do
 - 🖱️ **Drag it anywhere** — corner, side, wherever it's not in your way
 - 📐 **Resize it** to whatever size feels right
-- 🎯 **Smart stream detection** — picks your friend's video, not your own camera
-- 🔄 **Manual stream picker** — if it grabs the wrong feed, you can switch in one click
+- 🎯 **Controls** — Turn on your mic or camera and end call via the popup
 - ✅ Works entirely in your browser, no installs, no accounts, no nonsense
 
 ---
